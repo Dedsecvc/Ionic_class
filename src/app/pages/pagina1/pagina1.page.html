@@ -7,20 +7,20 @@
 <ion-content>
 
   <div class="formulario">
-    <form [formGroup]="persona" (ngSubmit)="grabar()">
+    <form (ngSubmit)="grabar()">
   <ion-item>
     <ion-label position="floating">Nombre</ion-label>
-    <ion-input formControlName="nombre" ></ion-input>
+    <ion-input ></ion-input>
   </ion-item>
 
   <ion-item>
     <ion-label position="floating">Rut</ion-label>
-    <ion-input formControlName="rut"></ion-input>
+    <ion-input ></ion-input>
   </ion-item>
 
   <ion-item>
     <ion-label position="floating">Edad</ion-label>
-    <ion-input formControlName="edad"></ion-input>
+    <ion-input ></ion-input>
   </ion-item>
 
   <ion-button color="primary" expand="full" type="submit">Guardar</ion-button>
